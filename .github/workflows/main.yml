@@ -1,0 +1,9 @@
+- name: Lighthouse Report
+  # You may pin to the exact commit or the version.
+  # uses: manrueda/lighthouse-report-action@731523717dc2a4a92b3c1f67e2710a8261f3ccbb
+  uses: manrueda/lighthouse-report-action@v1.1.2
+  with:
+    # Directory where lighthouse JSON reports are stored
+    reports: 
+    # Github Token
+    github-token: 
